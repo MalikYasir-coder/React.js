@@ -24,3 +24,7 @@
 // javascript libraries(redux,redux toolkit,zustand context api)
 // class base component (legacy code)
 // there is no seo in react 
+
+// node js is a compiler of js which we have to download
+// react and react dom for npm 
+// make function name in react capital 
