@@ -2,12 +2,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
+import Chai from "./chai.jsx"
+// import Chai from "./components/chai";
+
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-   <h1>again with second project | Muhammad Yasir </h1>
+    <div>
+    <Chai /> 
+    </div>
   )
 }
 
