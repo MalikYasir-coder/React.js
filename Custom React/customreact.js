@@ -1,10 +1,16 @@
 function customRender(reactElement, container){
     const domElement = document.createElement(reactElement.type)   
     domElement.innerHTML = reactElement.children
-    domElement.setAttribute('href',reactElement.props.href)
+    for (const props in reactElement.props) {
+      domElement.setAttribute(prop,reactElement.props[prop])
+        
+    }
+    // domElement.setAttribute('href',reactElement.props.href)
+
+
+    container.appendChild(domElement)
 
 }
-container.appendChild(domElement)
 
 
  const reactElement = {
