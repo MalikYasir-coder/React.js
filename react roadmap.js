@@ -25,6 +25,8 @@
 // class base component (legacy code)
 // there is no seo in react
 
+import { useState } from "react"
+
 // node js is a compiler of js which we have to download
 // react and react dom for npm
 // make function name in react capital
@@ -40,3 +42,4 @@
 // basically jb hum koi button bnate hai to usme event listener by document wagera kr k lekin agr hm ki bhi event add krein to wo hr aik button Pr
 // same to same kaam krta hai to us problem ko solve krne k lye hm hooks ka use krte hai 
 // UI updation ko react control krta hai by using hooks 
+// we use hooks the hook is useState() it is used for data change over time or when we click the button the value changes or increases
