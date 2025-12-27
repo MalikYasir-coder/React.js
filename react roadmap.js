@@ -31,15 +31,24 @@ import { useState } from "react"
 // react and react dom for npm
 // make function name in react capital
 // jb hm apna react library bnane tb sabse pehle index.html phir react.js phr jo hm root bnate hai index.html use react.js me grab krwate hai phir hmne isko render krna hai do cheezo ko render krte aik react element or dusra root jis me hmne usko save kya hai to phir hm sbse pehle reactelement bnaenge
-// to hme a tag render krna to is lye hm reactelement bnaenge 
+// to hme a tag render krna to is lye hm reactelement bnaenge
 // lekin ab hme pta nai hai custom render kaaam kese krega to is k lye hm function custom render bnange
 // function customRender(reactElement,maincontainer){
 
 // }
 // to sb se pehle dom Element create krenge
 // phir innerhtml add krenge
-// hooks ka kaam kya hai 
+// hooks ka kaam kya hai
 // basically jb hum koi button bnate hai to usme event listener by document wagera kr k lekin agr hm ki bhi event add krein to wo hr aik button Pr
-// same to same kaam krta hai to us problem ko solve krne k lye hm hooks ka use krte hai 
-// UI updation ko react control krta hai by using hooks 
+// same to same kaam krta hai to us problem ko solve krne k lye hm hooks ka use krte hai
+// UI updation ko react control krta hai by using hooks
 // we use hooks the hook is useState() it is used for data change over time or when we click the button the value changes or increases
+// create root hmare lye behind code k dom like structure bnata hai
+// virtual dom ye real dom ki aik copy hai react virtual dom ko update krna hai phir sirf required changes Real dom me krta hai
+// React Fibre (virtual dom ko update krne k lye react fibre use hota hai )
+// react fibre is ongoing reimplementation of reacts core algorithm  it is the
+// result of two years of react core team
+// key features of react fibre are ability to pause reuse or abort work and the ability to give priority whom because my updates are way due to many changes
+// Reconcilation
+// Reconciliation wo process hai jisme React old Virtual DOM aur new Virtual DOM ko compare karta hai aur decide karta hai ke Real DOM me kya change karna hai.
+// Differing of lists using keys are very important topic in react 
