@@ -6,10 +6,13 @@ import Chai from "./chai.jsx"
 // import Chai from "./components/chai";
 
 function App() {
+  const username  = 'chai aur code '
   // const [count, setCount] = useState(0)
 
   return (
     <div>
+      {/* {/* /* {username} */ } this is expression */
+     <h1>dollar</h1> {username}
     <Chai /> 
     </div>
   )
