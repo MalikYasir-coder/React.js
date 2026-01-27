@@ -25,7 +25,7 @@
 // class base component (legacy code)
 // there is no seo in react
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 // node js is a compiler of js which we have to download
 // react and react dom for npm
@@ -54,3 +54,14 @@ import { useState } from "react"
 // Differing of lists using keys are very important topic in react
 // interview Questions For React on Counter
 // useCallback function ko yaad rakhta hai taa ke React baar-baar naya function na banaye.
+// hooks (kuch hooks functional arguments lete hai kuch nai lete to hme arguments deni prti hai for example  
+// function usecurrencyinfo(currency){
+    // jo bracket me likha hai wo hmara arguments hai 
+// }
+// use effect hook ko hm kese likhte hai 
+// useEffect(useCallback,[dependency ])
+// fetch(url)
+// jb hm fetch method call krenge us k bad .then() ko call krenge response ko hm .json me convert krenge 
+//   .then(response => response.json()) // First .then()
+//   .then(data => console.log(data))    // Second .then()
+// jb hm extend use krenge tb hm render() lazmi use krenge
